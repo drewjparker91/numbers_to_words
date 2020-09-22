@@ -1,5 +1,4 @@
-def numbers_to_words(number)
-  numbers_to_name = {
+numbers_to_name = {
       1000000000000 => "trillion",
       1000000000 => "billion",
       1000000 => "million",
@@ -33,10 +32,3 @@ def numbers_to_words(number)
       2 => "two",
       1 => "one"
     }
-
-    finalString = ""
-    
-    # if num >0 && < 21, loop returns value of key
-    # if num > 20, we will have to move from tens, hundreds, etc
-
-end
